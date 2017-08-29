@@ -1,0 +1,33 @@
+{
+  "name": "aurelia-from-scratch",
+  "version": "1.0.0",
+  "description": "creating an aurelia project from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jeremy daniel bouvier",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.15.4",
+    "jspm": "^0.16.53"
+  },
+  "jspm": {
+    "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^2.1.1",
+      "aurelia-footer-component": "github:jeremygithubuser/aurelia-footer-component@master",
+      "aurelia-framework": "npm:aurelia-framework@^1.1.4",
+      "aurelia-navigation-component": "github:jeremygithubuser/aurelia-navigation-component@master",
+      "aurelia-pal-browser": "npm:aurelia-pal-browser@^1.3.0",
+      "babel-polyfill": "npm:babel-polyfill@^6.26.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.7",
+      "css": "github:systemjs/plugin-css@^0.1.35",
+      "jquery": "npm:jquery@^3.2.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

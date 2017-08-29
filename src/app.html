@@ -1,0 +1,12 @@
+<template>
+    <require from="bootstrap/css/bootstrap.css"></require>
+  
+    <nav-menu router.bind="router" user.bind="user" logout.bind="logout"></nav-menu>
+  
+    <div class="container" style="padding-top:70px;">
+      <spinner router.bind="router"></spinner>
+      <router-view></router-view>
+    </div>
+  
+    <footer model.bind="{message:'Developpement JDB.. contact us at www.contoso.com'}"></footer>
+  </template>
